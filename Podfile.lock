@@ -1,0 +1,71 @@
+PODS:
+  - AWSAuthCore (2.6.35):
+    - AWSCore (= 2.6.35)
+  - AWSAuthUI (2.6.35):
+    - AWSAuthCore (= 2.6.35)
+    - AWSCore (= 2.6.35)
+  - AWSCognito (2.6.35):
+    - AWSCore (= 2.6.35)
+  - AWSCognitoIdentityProvider (2.6.35):
+    - AWSCognitoIdentityProviderASF (= 1.0.1)
+    - AWSCore (= 2.6.35)
+  - AWSCognitoIdentityProviderASF (1.0.1)
+  - AWSCore (2.6.35)
+  - AWSDynamoDB (2.6.35):
+    - AWSCore (= 2.6.35)
+  - AWSMobileClient (2.6.35):
+    - AWSAuthCore (= 2.6.35)
+  - AWSPinpoint (2.6.35):
+    - AWSCore (= 2.6.35)
+  - AWSS3 (2.6.35):
+    - AWSCore (= 2.6.35)
+  - AWSSNS (2.6.35):
+    - AWSCore (= 2.6.35)
+  - AWSUserPoolsSignIn (2.6.35):
+    - AWSAuthCore (= 2.6.35)
+    - AWSCognitoIdentityProvider (= 2.6.35)
+
+DEPENDENCIES:
+  - AWSAuthCore (~> 2.6.1)
+  - AWSAuthUI
+  - AWSCognito
+  - AWSCognitoIdentityProvider (~> 2.6.6)
+  - AWSDynamoDB (~> 2.6.6)
+  - AWSMobileClient (~> 2.6.6)
+  - AWSPinpoint (~> 2.6.6)
+  - AWSS3
+  - AWSSNS (~> 2.6.6)
+  - AWSUserPoolsSignIn
+
+SPEC REPOS:
+  trunk:
+    - AWSAuthCore
+    - AWSAuthUI
+    - AWSCognito
+    - AWSCognitoIdentityProvider
+    - AWSCognitoIdentityProviderASF
+    - AWSCore
+    - AWSDynamoDB
+    - AWSMobileClient
+    - AWSPinpoint
+    - AWSS3
+    - AWSSNS
+    - AWSUserPoolsSignIn
+
+SPEC CHECKSUMS:
+  AWSAuthCore: 386e045a341acebf2409425467e907ae1a45ed63
+  AWSAuthUI: 55b403e6f2ad010730c4dfa56b0eb96b041fce4c
+  AWSCognito: 6b96ae976b5f59881c1bb406e0c7d08494651dee
+  AWSCognitoIdentityProvider: 0a041bd229a105d73f3a4d7eb90f696f1b5bd422
+  AWSCognitoIdentityProviderASF: f94f1a502e72ef3d0a1de93e10bf7a79c8698118
+  AWSCore: 2dab62ef2e5ca5d8c72c6cbdb3a6ea1532c27c2b
+  AWSDynamoDB: f4902fc37384dcf9547e2d8a32a5b208d4d1d996
+  AWSMobileClient: f89a36e0d95fc354a9d3b50d347371788c542449
+  AWSPinpoint: 269c600f74368deb045854f28aa45bce20820baa
+  AWSS3: 282a590bb47e9cd88de24979fb28954399c41c52
+  AWSSNS: 61e5fa0ba7b7ade784af68400acb6c66c990a996
+  AWSUserPoolsSignIn: cf3293cf2c423922e628082a9b09e77473afc8b0
+
+PODFILE CHECKSUM: 3ee64dde21d1e771237ebf566f80fe55f0cd50e7
+
+COCOAPODS: 1.9.3
