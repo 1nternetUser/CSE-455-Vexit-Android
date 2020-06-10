@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA5037B3E1185D0A3DBF4951 /* Pods_FINAL_UDROP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41A15AFC4A67D919430BC6EE /* Pods_FINAL_UDROP.framework */; };
+		DF450061247F7191007EBCF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF45005F247F7191007EBCF8 /* Main.storyboard */; };
+		DF450064247F71A1007EBCF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF450062247F71A1007EBCF8 /* LaunchScreen.storyboard */; };
+		DFBEC787248EF63B00A10EFD /* MyDrops.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEC754248EF62A00A10EFD /* MyDrops.swift */; };
+		DFBEC788248EF63B00A10EFD /* AddressDropSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEC755248EF62B00A10EFD /* AddressDropSearchTable.swift */; };
+		DFBEC789248EF63B00A10EFD /* MultiColorCircleOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEC757248EF62B00A10EFD /* MultiColorCircleOverlay.swift */; };
+		DFBEC78A248EF63B00A10EFD /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEC758248EF62B00A10EFD /* CustomTextField.swift */; };
+		DFBEC78B248EF63B00A10EFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEC759248EF62C00A10EFD /* SceneDelegate.swift */; };
+		DFBEC78D248EF63B00A10EFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEC75B248EF62C00A10EFD /* AppDelegate.swift */; };
+		DFBEC78F248EF63B00A10EFD /* AddUsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEC75D248EF62D00A10EFD /* AddUsersTableViewController.swift */; };
+		DFBEC790248EF63B00A10EFD /* DropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEC75E248EF62D00A10EFD /* DropViewController.swift */; };
+		DFBEC791248EF63B00A10EFD /* BasicUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEC75F248EF62E00A10EFD /* BasicUser.swift */; };
+		DFBEC792248EF63B00A10EFD /* Splash_Screen.png in Resources */ = {isa = PBXBuildFile; fileRef = DFBEC760248EF62E00A10EFD /* Splash_Screen.png */; };
+		DFBEC793248EF63B00A10EFD /* VEXTit-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = DFBEC762248EF62E00A10EFD /* VEXTit-1024.png */; };
+		DFBEC794248EF63B00A10EFD /* AWSAPI_PM09ESAO8J_RequestSchema.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBEC763248EF62F00A10EFD /* AWSAPI_PM09ESAO8J_RequestSchema.m */; };
+		DFBEC795248EF63B00A10EFD /* AllUsersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEC764248EF62F00A10EFD /* AllUsersTableViewCell.swift */; };
+		DFBEC797248EF63B00A10EFD /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEC766248EF62F00A10EFD /* ContactTableViewCell.swift */; };
+		DFBEC798248EF63B00A10EFD /* AddressSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEC767248EF63000A10EFD /* AddressSearchTable.swift */; };
+		DFBEC799248EF63B00A10EFD /* AWSAPI_PM09ESAO8J_ResponseSchema.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBEC768248EF63000A10EFD /* AWSAPI_PM09ESAO8J_ResponseSchema.m */; };
+		DFBEC79A248EF63B00A10EFD /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEC769248EF63000A10EFD /* CustomTextView.swift */; };
+		DFBEC79B248EF63B00A10EFD /* AddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEC76C248EF63100A10EFD /* AddressViewController.swift */; };
+		DFBEC79C248EF63B00A10EFD /* VEXTit-1024.xcf in Resources */ = {isa = PBXBuildFile; fileRef = DFBEC76D248EF63200A10EFD /* VEXTit-1024.xcf */; };
+		DFBEC79D248EF63B00A10EFD /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = DFBEC76E248EF63200A10EFD /* Base.lproj */; };
+		DFBEC79E248EF63B00A10EFD /* DeselectableSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEC76F248EF63200A10EFD /* DeselectableSegmentedControl.swift */; };
+		DFBEC79F248EF63B00A10EFD /* Homepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEC770248EF63200A10EFD /* Homepage.swift */; };
+		DFBEC7A0248EF63B00A10EFD /* key.p12 in Resources */ = {isa = PBXBuildFile; fileRef = DFBEC771248EF63300A10EFD /* key.p12 */; };
+		DFBEC7A3248EF63B00A10EFD /* VEXTit-Login.png in Resources */ = {isa = PBXBuildFile; fileRef = DFBEC774248EF63400A10EFD /* VEXTit-Login.png */; };
+		DFBEC7A4248EF63B00A10EFD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEC775248EF63400A10EFD /* User.swift */; };
+		DFBEC7A5248EF63B00A10EFD /* MyDropsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEC777248EF63500A10EFD /* MyDropsCollectionViewCell.swift */; };
+		DFBEC7A7248EF63B00A10EFD /* Other Files in Resources */ = {isa = PBXBuildFile; fileRef = DFBEC77A248EF63600A10EFD /* Other Files */; };
+		DFBEC7A8248EF63B00A10EFD /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEC77B248EF63600A10EFD /* VideoViewController.swift */; };
+		DFBEC7A9248EF63B00A10EFD /* Drops.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEC77C248EF63600A10EFD /* Drops.swift */; };
+		DFBEC7AA248EF63B00A10EFD /* UsersTableOLD.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEC77D248EF63600A10EFD /* UsersTableOLD.swift */; };
+		DFBEC7AB248EF63B00A10EFD /* UsersTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEC77E248EF63700A10EFD /* UsersTable.swift */; };
+		DFBEC7AC248EF63B00A10EFD /* ContactListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEC77F248EF63700A10EFD /* ContactListTableViewController.swift */; };
+		DFBEC7AD248EF63B00A10EFD /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEC780248EF63700A10EFD /* DataStore.swift */; };
+		DFBEC7AE248EF63B00A10EFD /* globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEC781248EF63800A10EFD /* globals.swift */; };
+		DFBEC7B0248EF63B00A10EFD /* MultiColorPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEC783248EF63900A10EFD /* MultiColorPointAnnotation.swift */; };
+		DFBEC7B1248EF63B00A10EFD /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEC784248EF63A00A10EFD /* MapViewController.swift */; };
+		DFBEC7B2248EF63B00A10EFD /* icon180.png in Resources */ = {isa = PBXBuildFile; fileRef = DFBEC785248EF63A00A10EFD /* icon180.png */; };
+		DFBEC7B3248EF63B00A10EFD /* Drop.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEC786248EF63A00A10EFD /* Drop.swift */; };
+		DFBEC7B6248EF6CC00A10EFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFBEC7B4248EF6CC00A10EFD /* LaunchScreen.storyboard */; };
+		DFBEC7B7248EF6CC00A10EFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFBEC7B5248EF6CC00A10EFD /* Main.storyboard */; };
+		DFF3F113248F05C60002BF04 /* DropStorageTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF3F112248F05C60002BF04 /* DropStorageTable.swift */; };
+		DFF3F115248F12310002BF04 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF3F114248F12310002BF04 /* SettingsViewController.swift */; };
+		DFF3F11724918D290002BF04 /* AWSAPI_PM09ESAO8J_VEXTitMobileHubClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF3F11624918D290002BF04 /* AWSAPI_PM09ESAO8J_VEXTitMobileHubClient.m */; };
+		DFF3F11D24918D910002BF04 /* AWSAPI_PM09ESAO8J_VEXTitMobileHubClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF3F11C24918D910002BF04 /* AWSAPI_PM09ESAO8J_VEXTitMobileHubClient.m */; };
+		DFF3F1222491918A0002BF04 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF3F1212491918A0002BF04 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41A15AFC4A67D919430BC6EE /* Pods_FINAL_UDROP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FINAL_UDROP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1638D581A23EC3445C0FC6E /* Pods-FINAL UDROP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FINAL UDROP.release.xcconfig"; path = "Target Support Files/Pods-FINAL UDROP/Pods-FINAL UDROP.release.xcconfig"; sourceTree = "<group>"; };
+		C1B28BDBE8E458E360BBFDD5 /* Pods-FINAL UDROP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FINAL UDROP.debug.xcconfig"; path = "Target Support Files/Pods-FINAL UDROP/Pods-FINAL UDROP.debug.xcconfig"; sourceTree = "<group>"; };
+		DF34B131248D6EC50053DA7C /* Homepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homepage.swift; sourceTree = "<group>"; };
+		DF450007247F6B20007EBCF8 /* FINAL UDROP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FINAL UDROP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF45000C247F6B20007EBCF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DF450029247F6EF5007EBCF8 /* FINAL UDROP-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FINAL UDROP-Bridging-Header.h"; sourceTree = "<group>"; };
+		DF450030247F6F36007EBCF8 /* BasicUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BasicUser.swift; path = "../../../FINAL Udrop/BasicUser.swift"; sourceTree = "<group>"; };
+		DF450032247F6F40007EBCF8 /* Bridging_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Bridging_Header.h; path = "../../../FINAL Udrop/Bridging_Header.h"; sourceTree = "<group>"; };
+		DF450033247F6F4D007EBCF8 /* ContactListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactListTableViewController.swift; path = "../../../FINAL Udrop/ContactListTableViewController.swift"; sourceTree = "<group>"; };
+		DF450035247F6F57007EBCF8 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactTableViewCell.swift; path = "../../../FINAL Udrop/ContactTableViewCell.swift"; sourceTree = "<group>"; };
+		DF450037247F6F5F007EBCF8 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTextField.swift; path = "../../../FINAL Udrop/CustomTextField.swift"; sourceTree = "<group>"; };
+		DF450039247F6F66007EBCF8 /* CustomTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTextView.swift; path = "../../../FINAL Udrop/CustomTextView.swift"; sourceTree = "<group>"; };
+		DF45003B247F6F71007EBCF8 /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataStore.swift; path = "../../../FINAL Udrop/DataStore.swift"; sourceTree = "<group>"; };
+		DF45003D247F6F78007EBCF8 /* DeselectableSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeselectableSegmentedControl.swift; path = "../../../FINAL Udrop/DeselectableSegmentedControl.swift"; sourceTree = "<group>"; };
+		DF45003F247F6F83007EBCF8 /* Drops.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Drops.swift; path = "../../../FINAL Udrop/Drops.swift"; sourceTree = "<group>"; };
+		DF450043247F6F97007EBCF8 /* DropViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DropViewController.swift; path = "../../../FINAL Udrop/DropViewController.swift"; sourceTree = "<group>"; };
+		DF450045247F6F9F007EBCF8 /* globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = globals.swift; path = "../../../FINAL Udrop/globals.swift"; sourceTree = "<group>"; };
+		DF45004B247F6FDF007EBCF8 /* MultiColorCircleOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MultiColorCircleOverlay.swift; path = "../../../FINAL Udrop/MultiColorCircleOverlay.swift"; sourceTree = "<group>"; };
+		DF45004D247F6FEC007EBCF8 /* MyDrops.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyDrops.swift; path = "../../../FINAL Udrop/MyDrops.swift"; sourceTree = "<group>"; };
+		DF45004F247F6FF4007EBCF8 /* MyDropsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyDropsCollectionViewCell.swift; path = "../../../FINAL Udrop/MyDropsCollectionViewCell.swift"; sourceTree = "<group>"; };
+		DF450051247F7019007EBCF8 /* MultiColorPointAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MultiColorPointAnnotation.swift; path = "../../../FINAL Udrop/MultiColorPointAnnotation.swift"; sourceTree = "<group>"; };
+		DF450053247F7027007EBCF8 /* Drop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Drop.swift; path = "../../../FINAL Udrop/Drop.swift"; sourceTree = "<group>"; };
+		DF450055247F7033007EBCF8 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = "../../../FINAL Udrop/SettingsViewController.swift"; sourceTree = "<group>"; };
+		DF450057247F7040007EBCF8 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = "../../../FINAL Udrop/User.swift"; sourceTree = "<group>"; };
+		DF45005B247F7055007EBCF8 /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VideoViewController.swift; path = "../../../FINAL Udrop/VideoViewController.swift"; sourceTree = "<group>"; };
+		DF450060247F7191007EBCF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../FINAL Udrop/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		DF450063247F71A1007EBCF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../FINAL Udrop/Base.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		DFBEC754248EF62A00A10EFD /* MyDrops.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyDrops.swift; sourceTree = "<group>"; };
+		DFBEC755248EF62B00A10EFD /* AddressDropSearchTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressDropSearchTable.swift; sourceTree = "<group>"; };
+		DFBEC756248EF62B00A10EFD /* AWSAPI_PM09ESAO8J_RequestSchema.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSAPI_PM09ESAO8J_RequestSchema.h; sourceTree = "<group>"; };
+		DFBEC757248EF62B00A10EFD /* MultiColorCircleOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiColorCircleOverlay.swift; sourceTree = "<group>"; };
+		DFBEC758248EF62B00A10EFD /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		DFBEC759248EF62C00A10EFD /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DFBEC75B248EF62C00A10EFD /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFBEC75D248EF62D00A10EFD /* AddUsersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddUsersTableViewController.swift; sourceTree = "<group>"; };
+		DFBEC75E248EF62D00A10EFD /* DropViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropViewController.swift; sourceTree = "<group>"; };
+		DFBEC75F248EF62E00A10EFD /* BasicUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicUser.swift; sourceTree = "<group>"; };
+		DFBEC760248EF62E00A10EFD /* Splash_Screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash_Screen.png; sourceTree = "<group>"; };
+		DFBEC761248EF62E00A10EFD /* AWSAPI_PM09ESAO8J_ResponseSchema.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSAPI_PM09ESAO8J_ResponseSchema.h; sourceTree = "<group>"; };
+		DFBEC762248EF62E00A10EFD /* VEXTit-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VEXTit-1024.png"; sourceTree = "<group>"; };
+		DFBEC763248EF62F00A10EFD /* AWSAPI_PM09ESAO8J_RequestSchema.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSAPI_PM09ESAO8J_RequestSchema.m; sourceTree = "<group>"; };
+		DFBEC764248EF62F00A10EFD /* AllUsersTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllUsersTableViewCell.swift; sourceTree = "<group>"; };
+		DFBEC766248EF62F00A10EFD /* ContactTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		DFBEC767248EF63000A10EFD /* AddressSearchTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressSearchTable.swift; sourceTree = "<group>"; };
+		DFBEC768248EF63000A10EFD /* AWSAPI_PM09ESAO8J_ResponseSchema.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSAPI_PM09ESAO8J_ResponseSchema.m; sourceTree = "<group>"; };
+		DFBEC769248EF63000A10EFD /* CustomTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextView.swift; sourceTree = "<group>"; };
+		DFBEC76A248EF63000A10EFD /* Bridging_Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bridging_Header.h; sourceTree = "<group>"; };
+		DFBEC76C248EF63100A10EFD /* AddressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressViewController.swift; sourceTree = "<group>"; };
+		DFBEC76D248EF63200A10EFD /* VEXTit-1024.xcf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEXTit-1024.xcf"; sourceTree = "<group>"; };
+		DFBEC76E248EF63200A10EFD /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
+		DFBEC76F248EF63200A10EFD /* DeselectableSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeselectableSegmentedControl.swift; sourceTree = "<group>"; };
+		DFBEC770248EF63200A10EFD /* Homepage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Homepage.swift; sourceTree = "<group>"; };
+		DFBEC771248EF63300A10EFD /* key.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = key.p12; sourceTree = "<group>"; };
+		DFBEC774248EF63400A10EFD /* VEXTit-Login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VEXTit-Login.png"; sourceTree = "<group>"; };
+		DFBEC775248EF63400A10EFD /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DFBEC776248EF63400A10EFD /* VEXTit Drop.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = "VEXTit Drop.entitlements"; sourceTree = "<group>"; };
+		DFBEC777248EF63500A10EFD /* MyDropsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyDropsCollectionViewCell.swift; sourceTree = "<group>"; };
+		DFBEC779248EF63500A10EFD /* FINAL UDROP-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FINAL UDROP-Bridging-Header.h"; sourceTree = "<group>"; };
+		DFBEC77A248EF63600A10EFD /* Other Files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Other Files"; sourceTree = "<group>"; };
+		DFBEC77B248EF63600A10EFD /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		DFBEC77C248EF63600A10EFD /* Drops.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drops.swift; sourceTree = "<group>"; };
+		DFBEC77D248EF63600A10EFD /* UsersTableOLD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersTableOLD.swift; sourceTree = "<group>"; };
+		DFBEC77E248EF63700A10EFD /* UsersTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersTable.swift; sourceTree = "<group>"; };
+		DFBEC77F248EF63700A10EFD /* ContactListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactListTableViewController.swift; sourceTree = "<group>"; };
+		DFBEC780248EF63700A10EFD /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		DFBEC781248EF63800A10EFD /* globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = globals.swift; sourceTree = "<group>"; };
+		DFBEC783248EF63900A10EFD /* MultiColorPointAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiColorPointAnnotation.swift; sourceTree = "<group>"; };
+		DFBEC784248EF63A00A10EFD /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		DFBEC785248EF63A00A10EFD /* icon180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon180.png; sourceTree = "<group>"; };
+		DFBEC786248EF63A00A10EFD /* Drop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drop.swift; sourceTree = "<group>"; };
+		DFBEC7B4248EF6CC00A10EFD /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFBEC7B5248EF6CC00A10EFD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DFF3F112248F05C60002BF04 /* DropStorageTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropStorageTable.swift; sourceTree = "<group>"; };
+		DFF3F114248F12310002BF04 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		DFF3F11624918D290002BF04 /* AWSAPI_PM09ESAO8J_VEXTitMobileHubClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSAPI_PM09ESAO8J_VEXTitMobileHubClient.m; sourceTree = "<group>"; };
+		DFF3F11C24918D910002BF04 /* AWSAPI_PM09ESAO8J_VEXTitMobileHubClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSAPI_PM09ESAO8J_VEXTitMobileHubClient.m; sourceTree = "<group>"; };
+		DFF3F11E24918DFC0002BF04 /* AWSAPI_PM09ESAO8J_VEXTitMobileHubClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWSAPI_PM09ESAO8J_VEXTitMobileHubClient.h; sourceTree = "<group>"; };
+		DFF3F11F24918E160002BF04 /* AWSAPI_PM09ESAO8J_VEXTitMobileHubClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWSAPI_PM09ESAO8J_VEXTitMobileHubClient.h; sourceTree = "<group>"; };
+		DFF3F12024918E310002BF04 /* AWSAPI_PM09ESAO8J_RequestSchema.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWSAPI_PM09ESAO8J_RequestSchema.h; sourceTree = "<group>"; };
+		DFF3F1212491918A0002BF04 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF450004247F6B20007EBCF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA5037B3E1185D0A3DBF4951 /* Pods_FINAL_UDROP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		133CA94BE12E07D873E48072 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1B28BDBE8E458E360BBFDD5 /* Pods-FINAL UDROP.debug.xcconfig */,
+				C1638D581A23EC3445C0FC6E /* Pods-FINAL UDROP.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4EABD734E597BB2CC22200C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41A15AFC4A67D919430BC6EE /* Pods_FINAL_UDROP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF450008247F6B20007EBCF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF450007247F6B20007EBCF8 /* FINAL UDROP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF450009247F6B20007EBCF8 /* FINAL UDROP */ = {
+			isa = PBXGroup;
+			children = (
+				DFBEC767248EF63000A10EFD /* AddressSearchTable.swift */,
+				DFBEC76C248EF63100A10EFD /* AddressViewController.swift */,
+				DFBEC75D248EF62D00A10EFD /* AddUsersTableViewController.swift */,
+				DFBEC764248EF62F00A10EFD /* AllUsersTableViewCell.swift */,
+				DFBEC75B248EF62C00A10EFD /* AppDelegate.swift */,
+				DFBEC763248EF62F00A10EFD /* AWSAPI_PM09ESAO8J_RequestSchema.m */,
+				DFBEC768248EF63000A10EFD /* AWSAPI_PM09ESAO8J_ResponseSchema.m */,
+				DFF3F12024918E310002BF04 /* AWSAPI_PM09ESAO8J_RequestSchema.h */,
+				DFF3F11E24918DFC0002BF04 /* AWSAPI_PM09ESAO8J_VEXTitMobileHubClient.h */,
+				DFF3F11F24918E160002BF04 /* AWSAPI_PM09ESAO8J_VEXTitMobileHubClient.h */,
+				DFBEC761248EF62E00A10EFD /* AWSAPI_PM09ESAO8J_ResponseSchema.h */,
+				DFF3F11624918D290002BF04 /* AWSAPI_PM09ESAO8J_VEXTitMobileHubClient.m */,
+				DFF3F11C24918D910002BF04 /* AWSAPI_PM09ESAO8J_VEXTitMobileHubClient.m */,
+				DFBEC76E248EF63200A10EFD /* Base.lproj */,
+				DF450030247F6F36007EBCF8 /* BasicUser.swift */,
+				DF450032247F6F40007EBCF8 /* Bridging_Header.h */,
+				DF450033247F6F4D007EBCF8 /* ContactListTableViewController.swift */,
+				DFBEC76A248EF63000A10EFD /* Bridging_Header.h */,
+				DFBEC77F248EF63700A10EFD /* ContactListTableViewController.swift */,
+				DF450035247F6F57007EBCF8 /* ContactTableViewCell.swift */,
+				DFBEC75F248EF62E00A10EFD /* BasicUser.swift */,
+				DFBEC766248EF62F00A10EFD /* ContactTableViewCell.swift */,
+				DF450037247F6F5F007EBCF8 /* CustomTextField.swift */,
+				DFF3F112248F05C60002BF04 /* DropStorageTable.swift */,
+				DF450039247F6F66007EBCF8 /* CustomTextView.swift */,
+				DF45003B247F6F71007EBCF8 /* DataStore.swift */,
+				DFBEC780248EF63700A10EFD /* DataStore.swift */,
+				DF45003D247F6F78007EBCF8 /* DeselectableSegmentedControl.swift */,
+				DF450053247F7027007EBCF8 /* Drop.swift */,
+				DFBEC786248EF63A00A10EFD /* Drop.swift */,
+				DF45003F247F6F83007EBCF8 /* Drops.swift */,
+				DFBEC77C248EF63600A10EFD /* Drops.swift */,
+				DFBEC769248EF63000A10EFD /* CustomTextView.swift */,
+				DFBEC76F248EF63200A10EFD /* DeselectableSegmentedControl.swift */,
+				DFF3F114248F12310002BF04 /* SettingsViewController.swift */,
+				DF450043247F6F97007EBCF8 /* DropViewController.swift */,
+				DF450045247F6F9F007EBCF8 /* globals.swift */,
+				DFBEC7B4248EF6CC00A10EFD /* LaunchScreen.storyboard */,
+				DFBEC7B5248EF6CC00A10EFD /* Main.storyboard */,
+				DFBEC779248EF63500A10EFD /* FINAL UDROP-Bridging-Header.h */,
+				DFBEC781248EF63800A10EFD /* globals.swift */,
+				DF34B131248D6EC50053DA7C /* Homepage.swift */,
+				DFBEC758248EF62B00A10EFD /* CustomTextField.swift */,
+				DFBEC75E248EF62D00A10EFD /* DropViewController.swift */,
+				DFBEC770248EF63200A10EFD /* Homepage.swift */,
+				DFBEC785248EF63A00A10EFD /* icon180.png */,
+				DFBEC771248EF63300A10EFD /* key.p12 */,
+				DFBEC784248EF63A00A10EFD /* MapViewController.swift */,
+				DF45004B247F6FDF007EBCF8 /* MultiColorCircleOverlay.swift */,
+				DF450051247F7019007EBCF8 /* MultiColorPointAnnotation.swift */,
+				DFBEC755248EF62B00A10EFD /* AddressDropSearchTable.swift */,
+				DFBEC756248EF62B00A10EFD /* AWSAPI_PM09ESAO8J_RequestSchema.h */,
+				DFBEC757248EF62B00A10EFD /* MultiColorCircleOverlay.swift */,
+				DFBEC783248EF63900A10EFD /* MultiColorPointAnnotation.swift */,
+				DF45004D247F6FEC007EBCF8 /* MyDrops.swift */,
+				DF45004F247F6FF4007EBCF8 /* MyDropsCollectionViewCell.swift */,
+				DFBEC777248EF63500A10EFD /* MyDropsCollectionViewCell.swift */,
+				DFBEC77A248EF63600A10EFD /* Other Files */,
+				DF45000C247F6B20007EBCF8 /* SceneDelegate.swift */,
+				DF450055247F7033007EBCF8 /* SettingsViewController.swift */,
+				DF450057247F7040007EBCF8 /* User.swift */,
+				DFBEC774248EF63400A10EFD /* VEXTit-Login.png */,
+				DFBEC77B248EF63600A10EFD /* VideoViewController.swift */,
+				DF45005B247F7055007EBCF8 /* VideoViewController.swift */,
+				DFBEC754248EF62A00A10EFD /* MyDrops.swift */,
+				DFBEC759248EF62C00A10EFD /* SceneDelegate.swift */,
+				DFBEC760248EF62E00A10EFD /* Splash_Screen.png */,
+				DFBEC775248EF63400A10EFD /* User.swift */,
+				DFBEC77E248EF63700A10EFD /* UsersTable.swift */,
+				DFBEC77D248EF63600A10EFD /* UsersTableOLD.swift */,
+				DFBEC776248EF63400A10EFD /* VEXTit Drop.entitlements */,
+				DFBEC762248EF62E00A10EFD /* VEXTit-1024.png */,
+				DFBEC76D248EF63200A10EFD /* VEXTit-1024.xcf */,
+				DF450062247F71A1007EBCF8 /* LaunchScreen.storyboard */,
+				DF45005F247F7191007EBCF8 /* Main.storyboard */,
+				DF450029247F6EF5007EBCF8 /* FINAL UDROP-Bridging-Header.h */,
+			);
+			path = "FINAL UDROP";
+			sourceTree = "<group>";
+		};
+		DF45FFFE247F6B1F007EBCF8 = {
+			isa = PBXGroup;
+			children = (
+				DFF3F1212491918A0002BF04 /* Default-568h@2x.png */,
+				DF450009247F6B20007EBCF8 /* FINAL UDROP */,
+				DF450008247F6B20007EBCF8 /* Products */,
+				133CA94BE12E07D873E48072 /* Pods */,
+				4EABD734E597BB2CC22200C8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF450006247F6B20007EBCF8 /* FINAL UDROP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF45001B247F6B25007EBCF8 /* Build configuration list for PBXNativeTarget "FINAL UDROP" */;
+			buildPhases = (
+				2FFB349E27BFF76068904623 /* [CP] Check Pods Manifest.lock */,
+				DF450003247F6B20007EBCF8 /* Sources */,
+				DF450004247F6B20007EBCF8 /* Frameworks */,
+				DF450005247F6B20007EBCF8 /* Resources */,
+				A6E41F19947918E961FBE782 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FINAL UDROP";
+			productName = "FINAL UDROP";
+			productReference = DF450007247F6B20007EBCF8 /* FINAL UDROP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF45FFFF247F6B1F007EBCF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Mercedes Burgos";
+				TargetAttributes = {
+					DF450006247F6B20007EBCF8 = {
+						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1140;
+					};
+				};
+			};
+			buildConfigurationList = DF450002247F6B1F007EBCF8 /* Build configuration list for PBXProject "FINAL UDROP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF45FFFE247F6B1F007EBCF8;
+			productRefGroup = DF450008247F6B20007EBCF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF450006247F6B20007EBCF8 /* FINAL UDROP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF450005247F6B20007EBCF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFBEC7A7248EF63B00A10EFD /* Other Files in Resources */,
+				DFBEC7B2248EF63B00A10EFD /* icon180.png in Resources */,
+				DFBEC7B6248EF6CC00A10EFD /* LaunchScreen.storyboard in Resources */,
+				DFBEC79D248EF63B00A10EFD /* Base.lproj in Resources */,
+				DFBEC793248EF63B00A10EFD /* VEXTit-1024.png in Resources */,
+				DFBEC7A3248EF63B00A10EFD /* VEXTit-Login.png in Resources */,
+				DF450064247F71A1007EBCF8 /* LaunchScreen.storyboard in Resources */,
+				DFBEC792248EF63B00A10EFD /* Splash_Screen.png in Resources */,
+				DFBEC7A0248EF63B00A10EFD /* key.p12 in Resources */,
+				DFF3F1222491918A0002BF04 /* Default-568h@2x.png in Resources */,
+				DFBEC7B7248EF6CC00A10EFD /* Main.storyboard in Resources */,
+				DFBEC79C248EF63B00A10EFD /* VEXTit-1024.xcf in Resources */,
+				DF450061247F7191007EBCF8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FFB349E27BFF76068904623 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FINAL UDROP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6E41F19947918E961FBE782 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FINAL UDROP/Pods-FINAL UDROP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FINAL UDROP/Pods-FINAL UDROP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FINAL UDROP/Pods-FINAL UDROP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF450003247F6B20007EBCF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFBEC798248EF63B00A10EFD /* AddressSearchTable.swift in Sources */,
+				DFBEC7AC248EF63B00A10EFD /* ContactListTableViewController.swift in Sources */,
+				DFF3F115248F12310002BF04 /* SettingsViewController.swift in Sources */,
+				DFBEC78D248EF63B00A10EFD /* AppDelegate.swift in Sources */,
+				DFF3F113248F05C60002BF04 /* DropStorageTable.swift in Sources */,
+				DFBEC7AD248EF63B00A10EFD /* DataStore.swift in Sources */,
+				DFBEC7A5248EF63B00A10EFD /* MyDropsCollectionViewCell.swift in Sources */,
+				DFBEC7AE248EF63B00A10EFD /* globals.swift in Sources */,
+				DFBEC7A8248EF63B00A10EFD /* VideoViewController.swift in Sources */,
+				DFBEC7B0248EF63B00A10EFD /* MultiColorPointAnnotation.swift in Sources */,
+				DFBEC78A248EF63B00A10EFD /* CustomTextField.swift in Sources */,
+				DFBEC7AA248EF63B00A10EFD /* UsersTableOLD.swift in Sources */,
+				DFBEC79A248EF63B00A10EFD /* CustomTextView.swift in Sources */,
+				DFBEC78F248EF63B00A10EFD /* AddUsersTableViewController.swift in Sources */,
+				DFBEC791248EF63B00A10EFD /* BasicUser.swift in Sources */,
+				DFBEC79E248EF63B00A10EFD /* DeselectableSegmentedControl.swift in Sources */,
+				DFBEC7AB248EF63B00A10EFD /* UsersTable.swift in Sources */,
+				DFF3F11D24918D910002BF04 /* AWSAPI_PM09ESAO8J_VEXTitMobileHubClient.m in Sources */,
+				DFF3F11724918D290002BF04 /* AWSAPI_PM09ESAO8J_VEXTitMobileHubClient.m in Sources */,
+				DFBEC79F248EF63B00A10EFD /* Homepage.swift in Sources */,
+				DFBEC794248EF63B00A10EFD /* AWSAPI_PM09ESAO8J_RequestSchema.m in Sources */,
+				DFBEC799248EF63B00A10EFD /* AWSAPI_PM09ESAO8J_ResponseSchema.m in Sources */,
+				DFBEC7A9248EF63B00A10EFD /* Drops.swift in Sources */,
+				DFBEC788248EF63B00A10EFD /* AddressDropSearchTable.swift in Sources */,
+				DFBEC7B3248EF63B00A10EFD /* Drop.swift in Sources */,
+				DFBEC78B248EF63B00A10EFD /* SceneDelegate.swift in Sources */,
+				DFBEC79B248EF63B00A10EFD /* AddressViewController.swift in Sources */,
+				DFBEC787248EF63B00A10EFD /* MyDrops.swift in Sources */,
+				DFBEC7A4248EF63B00A10EFD /* User.swift in Sources */,
+				DFBEC7B1248EF63B00A10EFD /* MapViewController.swift in Sources */,
+				DFBEC795248EF63B00A10EFD /* AllUsersTableViewCell.swift in Sources */,
+				DFBEC797248EF63B00A10EFD /* ContactTableViewCell.swift in Sources */,
+				DFBEC790248EF63B00A10EFD /* DropViewController.swift in Sources */,
+				DFBEC789248EF63B00A10EFD /* MultiColorCircleOverlay.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF45005F247F7191007EBCF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF450060247F7191007EBCF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF450062247F71A1007EBCF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF450063247F71A1007EBCF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF450019247F6B25007EBCF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF45001A247F6B25007EBCF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF45001C247F6B25007EBCF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1B28BDBE8E458E360BBFDD5 /* Pods-FINAL UDROP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G5KPKJBRBF;
+				INFOPLIST_FILE = "";
+				"INFOPLIST_FILE[sdk=*]" = "FINAL UDROP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.burgos.FINAL-UDROP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FINAL UDROP/FINAL UDROP-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF45001D247F6B25007EBCF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1638D581A23EC3445C0FC6E /* Pods-FINAL UDROP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G5KPKJBRBF;
+				INFOPLIST_FILE = "";
+				"INFOPLIST_FILE[sdk=*]" = "FINAL UDROP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.burgos.FINAL-UDROP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FINAL UDROP/FINAL UDROP-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF450002247F6B1F007EBCF8 /* Build configuration list for PBXProject "FINAL UDROP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF450019247F6B25007EBCF8 /* Debug */,
+				DF45001A247F6B25007EBCF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF45001B247F6B25007EBCF8 /* Build configuration list for PBXNativeTarget "FINAL UDROP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF45001C247F6B25007EBCF8 /* Debug */,
+				DF45001D247F6B25007EBCF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF45FFFF247F6B1F007EBCF8 /* Project object */;
+}
